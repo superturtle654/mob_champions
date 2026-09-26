@@ -1,0 +1,51 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Mob Champions",
+		"description": "Developed by @cole",
+		"uuid": "81cef7dd-a429-4cbd-8961-3b50560a9d0b",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			26,
+			60
+		]
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"uuid": "a90e15b2-f960-4eca-b002-9918e4ca812c",
+			"type": "data"
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "d3133f57-c414-4502-8579-e7e2247ac894",
+			"entry": "scripts/Main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.10.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "2.1.0"
+		}
+	]
+}
